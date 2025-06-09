@@ -4,9 +4,17 @@ Esse projeto que fiz em  python pode separar "automaticamente" arquivos em uma p
 
 ##  Como usar 🚀
 
+Clone este repositório:
+
+  'bash
+   git clone https://github.com/leafarbend/separador-arquivo.git
+   cd separador-arquivo/projauto
+
+
 01. Execute o script `sep.py`
 02. Escolha no seu pc uma pasta ao abrir a janela
 03. O programa irá criar subpastas de `imagens`, `pdfs` e `docs`, assim moverá automaticamente para as mesmas.
+
 
 ## Tecnologias usadas ✏️
 
