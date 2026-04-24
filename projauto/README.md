@@ -11,9 +11,9 @@ Clone este repositório:
    cd separador-arquivo/projauto
 
 
-01. Execute o script `sep.py`
-02. Escolha no seu pc uma pasta ao abrir a janela
-03. O programa irá criar subpastas de `imagens`, `pdfs` e `docs`, assim moverá automaticamente para as mesmas.
+01. Execute o script `main.py`
+3. Escolha no seu pc uma pasta ao abrir a janela
+4. O programa irá criar subpastas de `imagens`, `pdfs` e `docs`, assim moverá automaticamente para as mesmas.
 
 
 ## Tecnologias usadas ✏️
