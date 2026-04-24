@@ -6,7 +6,7 @@ caminho = askdirectory(title="Selecione uma pasta")
 arquivos_lista = os.listdir(caminho)
 
 locais = {
-    "imagens": [".png", ".jpg", ".jpeg"],
+    "imagens": [".png", ".jpg", ".jpeg", ".webp"],
     "pdfs": [".pdf"],
     "docs": [".doc", ".docx"],
 }
@@ -15,11 +15,13 @@ for arquivo in arquivos_lista:
     caminho_arquivo = os.path.join(caminho, arquivo)
 
     # garante que é arquivo
+    
     if os.path.isfile(caminho_arquivo):
         nome, extensao = os.path.splitext(arquivo)
         extensao = extensao.lower()
 
         for pasta in locais:
+            print(arquivo, extensao)
             if extensao in locais[pasta]:
                 destino_pasta = os.path.join(caminho, pasta)
 
