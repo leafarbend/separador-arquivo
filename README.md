@@ -6,7 +6,7 @@ Clone este repositório:
 
 'bash git clone https://github.com/leafarbend/separador-arquivo.git cd separador-arquivo/projauto
 
-Execute o script sep.py
+Execute o script main.py
 Escolha no seu pc uma pasta ao abrir a janela
 O programa irá criar subpastas de imagens, pdfs e docs, assim moverá automaticamente para as mesmas.
 Tecnologias usadas ✏️
